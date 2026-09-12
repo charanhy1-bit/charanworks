@@ -1,0 +1,63 @@
+# Tests
+
+## Test 1 - Keep the complete hero visible above the fold [sanity]
+Viewport: desktop
+Covers: exact homepage positioning, compact hero hierarchy, centered portrait identity, GTM capability presentation, Selected work navigation
+Description: Verifies the homepage opens with the intended positioning statement and all primary hero elements visible without a scroll.
+
+Steps:
+1. Open the homepage at a desktop viewport
+2. Review the headline, portrait, name, LinkedIn link, GTM capability strip, and Selected work cue
+3. Click “↓ Selected work”
+
+Expected: The first viewport shows “I build GTM and revenue systems that make revenue predictable.”, no supporting jargon paragraph, the portrait aligned to the headline, centered “Sai Charan” and LinkedIn below it, “Across the GTM motion” with GTM strategy, Pre-sales, Sales and Post-sales, and “↓ Selected work”. The Selected work cue reaches the Work section.
+
+## Test 2 - Present GTM capabilities without implying a false sequence
+Viewport: desktop
+Covers: GTM terminology, non-sequential capability framing, removal of 0→1 lifecycle wording
+Description: Verifies the homepage communicates breadth of GTM experience without presenting unrelated capabilities as a linear customer lifecycle.
+
+Steps:
+1. Open the homepage
+2. Inspect the GTM heading and four capability labels
+3. Inspect the separators
+
+Expected: The heading reads “Across the GTM motion”; the labels are GTM strategy, Pre-sales, Sales and Post-sales; separators are neutral visual dividers and there is no 0→1 stage.
+
+## Test 3 - Keep portrait identity aligned on mobile
+Viewport: mobile
+Covers: responsive hero, portrait centering, centered name and LinkedIn
+Description: Verifies the portrait identity block remains clean on a narrow viewport.
+
+Steps:
+1. Open the homepage on mobile
+2. Review the portrait, name and LinkedIn link
+3. Tap “↓ Selected work”
+
+Expected: The portrait is centered beneath the headline, the name and LinkedIn are centered to the image, and Selected work reaches the Work section.
+
+## Test 4 - Preserve internal case-study navigation
+Viewport: desktop
+Covers: case-study card navigation, internal case-study routing, return-home navigation
+Description: Verifies the homepage Work cards still open dedicated case-study pages after the hero refinement.
+
+Steps:
+1. Open the Work section
+2. Click the Tracxn case card
+3. Confirm the placeholder case page opens
+4. Click “Back to home”
+
+Expected: The Tracxn card opens the fully populated Tracxn visual case-study page, and the Back to home control returns to the homepage.
+
+## Test 5 - Navigate and read the Tracxn visual case study
+Viewport: desktop
+Covers: Tracxn executive-brief context frame, six approved Tracxn image assets in order, Notion deep-dive link
+Description: Verifies the Tracxn route presents the executive brief followed by the six approved case-study visuals as the complete visual narrative and a path to the detailed archive.
+
+Steps:
+1. Open the Tracxn case study from the Work section
+2. Scroll through the page from the executive brief through the six visual assets
+3. Verify the assets appear in order: Tracxn 1, Tracxn 2, Tracxn 3, Tracxn 4, Tracxn 5, Tracxn 6
+4. Activate “Read the full case study on Notion ↗”
+
+Expected: The page presents the executive brief followed by the six approved Tracxn visuals in the exact supplied order, then exposes the Notion deep-dive link.
