@@ -28,7 +28,7 @@ const cases = [
     result: '₹5M',
     resultLabel: 'saved in a spending freeze',
     type: 'LAUNCH · GTM',
-    image: "./resources/Byju's Exam Prep Cover.png",
+    image: "./resources/Byju%27s%20Exam%20Prep%20Cover.png",
     excerpt: 'A business unit wants to launch an MBA test-prep solution using a new hybrid technology and capture 1% of the Australian market.'
   },
   {
