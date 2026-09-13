@@ -3,7 +3,7 @@ import './styles.css';
 const cases = [
   {
     id: 'tracxn', client: 'TRACXN', title: 'Cracking 0 → 1 for a new buyer segment: corporate sales teams', result: '30+', resultLabel: 'new logos, net-new segment', type: 'GTM · ZERO → ONE',
-    image: 'https://saicharan-portfolio.notion.site/image/attachment%3Af2028e0e-f684-47b8-bb51-afcff8339e50%3ATracxn-Icon-Logo-Vector.svg-.png?id=3d47a3f0-397c-8006-8f34-e0f84d4f7086&table=block&spaceId=0be1dcf1-026a-46f6-965a-677a36883281&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl',
+    image: "./resources/Tracxn Cover.png",
     excerpt: 'The growth question I owned: was there a buyer for this same dataset that we were completely ignoring? There was.'
   },
   {
