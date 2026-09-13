@@ -2,33 +2,63 @@ import './styles.css';
 
 const cases = [
   {
-    id: 'tracxn', client: 'TRACXN', title: 'Cracking 0 → 1 for a new buyer segment: corporate sales teams', result: '30+', resultLabel: 'new logos, net-new segment', type: 'GTM · ZERO → ONE',
+    id: 'tracxn',
+    client: 'TRACXN',
+    title: 'Cracking 0 → 1 for a new buyer segment: corporate sales teams',
+    result: '30+',
+    resultLabel: 'new logos, net-new segment',
+    type: 'GTM · ZERO → ONE',
     image: "./resources/Tracxn Cover.png",
     excerpt: 'The growth question I owned: was there a buyer for this same dataset that we were completely ignoring? There was.'
   },
   {
-    id: 'lucidity', client: 'LUCIDITY', title: 'Moving GRR 75% → 84% and NRR 107% → 116% on a ~$5M book', result: '+9 / +12', resultLabel: 'GRR / NRR points', type: 'RETENTION · REVENUE',
-    image: 'https://saicharan-portfolio.notion.site/image/attachment%3A2e8e2076-8d22-4208-9554-511c31927d4d%3Alucidity_case_study.png?table=block&id=3d47a3f0-397c-80c9-ac93-f7ee106d06c3&spaceId=0be1dcf1-026a-46f6-965a-677a36883281&width=680&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl',
+    id: 'lucidity',
+    client: 'LUCIDITY',
+    title: 'Moving GRR 75% → 84% and NRR 107% → 116% on a ~$5M book',
+    result: '+9 / +12',
+    resultLabel: 'GRR / NRR points',
+    type: 'RETENTION · REVENUE',
+    image: "./resources/Lucidity Cover.png",
     excerpt: "NRR and GRR aren't things you manage — they're lagging outputs, this year's number a verdict on last year's decisions."
   },
   {
-    id: 'byjus-exam-prep', client: "BYJU'S EXAM PREP", title: 'New product launch GTM into a new market', result: '₹5M', resultLabel: 'saved in a spending freeze', type: 'LAUNCH · GTM',
-    image: 'https://saicharan-portfolio.notion.site/image/attachment%3A361bb8ff-301c-4014-8a79-622e30c0a206%3Abyjus_exam_prep_gtm_case_study.png?table=block&id=e7b91ae3-880b-4349-9f47-caac9ca1bdc5&spaceId=0be1dcf1-026a-46f6-965a-677a36883281&width=680&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl',
+    id: 'byjus-exam-prep',
+    client: "BYJU'S EXAM PREP",
+    title: 'New product launch GTM into a new market',
+    result: '₹5M',
+    resultLabel: 'saved in a spending freeze',
+    type: 'LAUNCH · GTM',
+    image: "./resources/Byju's Exam Prep Cover.png",
     excerpt: 'A business unit wants to launch an MBA test-prep solution using a new hybrid technology and capture 1% of the Australian market.'
   },
   {
-    id: 'dell-wpp', client: 'DELL & WPP', title: 'D2C revenue growth through the COVID lockdown', result: '535%', resultLabel: 'YoY revenue growth', type: 'GROWTH · D2C',
-    image: 'https://saicharan-portfolio.notion.site/image/attachment%3A3ea64624-ca23-4bde-9d79-c8577aa99cf7%3Adell_case_study.png?table=block&id=aa81be0e-5e1e-4947-b03a-b6fe2e2ac261&spaceId=0be1dcf1-026a-46f6-965a-677a36883281&width=680&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl',
+    id: 'dell-wpp',
+    client: 'DELL & WPP',
+    title: 'D2C revenue growth through the COVID lockdown',
+    result: '535%',
+    resultLabel: 'YoY revenue growth',
+    type: 'GROWTH · D2C',
+    image: "./resources/Dell WPP Cover.png",
     excerpt: 'Digital was the new gateway and the new storefront. Why not follow the country by going all in on digital?'
   },
   {
-    id: 'disney-hotstar', client: 'DISNEY+ HOTSTAR', title: 'Growing engagement without new content acquisition', result: '5 features', resultLabel: 'shipped in sequence', type: 'ENGAGEMENT · GROWTH',
-    image: 'https://saicharan-portfolio.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6b9da02e-a4de-4c89-8ee4-4d5724ab0c8b%2Fdisney-plus-hotstar-india.webp?table=block&id=ad95ed66-fddb-46b2-8c4f-59257d22919f&spaceId=0be1dcf1-026a-46f6-965a-677a36883281&width=680&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl',
+    id: 'disney-hotstar',
+    client: 'DISNEY+ HOTSTAR',
+    title: 'Growing engagement without new content acquisition',
+    result: '5 features',
+    resultLabel: 'shipped in sequence',
+    type: 'ENGAGEMENT · GROWTH',
+    image: "./resources/Disney Cover.png",
     excerpt: 'Growing engagement without content acquisition.'
   },
   {
-    id: 'byjus-online-classes', client: "BYJU'S ONLINE CLASSES", title: 'A proficiency-based class plan to lift engagement', result: '+9%', resultLabel: 'post-sales CSAT', type: 'PRODUCT · CUSTOMER SUCCESS',
-    image: 'https://saicharan-portfolio.notion.site/image/attachment%3A90888602-2e7f-470b-a051-567a34abfedd%3Abyjus_case_study.png?table=block&id=f0805e97-394f-466a-b908-a6f131c8550a&spaceId=0be1dcf1-026a-46f6-965a-677a36883281&width=680&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl',
+    id: 'byjus-online-classes',
+    client: "BYJU'S ONLINE CLASSES",
+    title: 'A proficiency-based class plan to lift engagement',
+    result: '+9%',
+    resultLabel: 'post-sales CSAT',
+    type: 'PRODUCT · CUSTOMER SUCCESS',
+    image: "./resources/Byju's Classes Cover.png",
     excerpt: 'Customized class planning to increase customer engagement.'
   },
 ];
